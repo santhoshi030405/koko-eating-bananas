@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+    background: #fffbe7;
+    text-align: center;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+input,
+button {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+#visualization {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.pile {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.koko {
+    font-size: 2rem;
+    animation: munch 0.4s infinite alternate;
+}
+
+@keyframes munch {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-5px);
+    }
+}

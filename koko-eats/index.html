@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🐵 Koko Eats Bananas 🍌</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>🐵 Koko Eats Bananas 🍌</h1>
+
+        <label>Piles of Bananas (e.g. 3,4,5):</label>
+        <input type="text" id="banana-input" placeholder="Enter comma-separated values" />
+
+        <label>Allowed Hours (k):</label>
+        <input type="number" id="hours-input" min="1" />
+
+        <button onclick="startSimulation()">Start Eating</button>
+
+        <div id="result"></div>
+        <div id="visualization"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
